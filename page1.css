@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #DCF2F1 !important;
+}
+.navbar{
+    background-color: #DCF2F1!important;
+}
+nav a{
+    color: #040303!important;
+}
+nav a:hover{
+    transform: scale(1.2);
+    border: 1px solid #040303;
+    border-radius:10px;
+    transition: 0.5s;
+}
+.dropdown ul{
+    background-color: #DCF2F1 !important;
+}
+.dropdown a:hover{
+    background-color: #DCF2F1 !important;
+    color: #040303 !important;
+    transition: 0.5s;
+    transform: scale(1.2);
+    border: 1px solid #040303;
+    border-radius: 10px;
+}
+.btn-outline-success{
+    color: #040303 !important;
+    border: 1px solid #040303 !important;
+}
+.btn-outline-success:hover{
+    background-color: #7FC7D9 !important;
+    color: #040303 !important;
+}
+.accordion-button{
+    background-color: #7FC7D9 !important;
+    color: #0F1035 !important;
+}
+.accordion{
+    margin-top: 28px;
+}
+.accordion-h3{
+    color: #0F1035 !important;
+}
+thead tr th{
+    background-color: #7FC7D9 !important;
+}
+footer{
+    background-color: #DCF2F1 !important;
+}
+.bg{
+    background-color: #365486 !important;
+}
+.cinema{
+    border-radius: 10px;
+}
+.btn-login{
+    background-color: #0F1035 !important;
+    border: 2px solid #365486 !important;
+}
+.btn-login:hover{
+    transform: 0.5s;
+    background-color: #365486 !important;
+}
+.a-login{
+    color: #0F1035 !important;
+}
+.a-login:hover{
+    color: #365486 !important;
+}
+.cards-movies{
+    background-color: #DCF2F1 !important;
+    height: 500px;
+    width:  500px;
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.all-cards{
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.cardb-series{
+    background-color: #DCF2F1 !important;
+    border: 2px solid #040303;
+}
+.card img{
+    border: 2px solid #040303;
+}
+.row2{
+    margin-top: 30px;
+}
+.card img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+.cardNote{
+    background-color: #7FC7D9 !important;
+}
+.act-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.act-cards .card{
+    background-color: #DCF2F1 !important;
+    border: 2px solid black;
+}
